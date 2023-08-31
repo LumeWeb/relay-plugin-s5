@@ -1,9 +1,14 @@
 import type { PluginAPI } from "@lumeweb/interface-relay";
-import { createKeyPair, createNode, S5NodeConfig } from "@lumeweb/libs5";
+import {
+  S5NodeConfig,
+  createKeyPair,
+  createNode,
+  NodeId,
+} from "@lumeweb/libs5";
+import HyperTransportPeer from "@lumeweb/libs5-transport-hyper";
 import { Level } from "level";
+
 import { PROTOCOL } from "./constants.js";
-import HyperTransportPeer from "./hyperTransport.js";
-import { NodeId } from "@lumeweb/libs5";
 import * as fs from "fs/promises";
 
 const plugin = {
@@ -35,7 +40,11 @@ const plugin = {
 
     api.swarm.join(api.util.crypto.createHash(PROTOCOL));
     api.protocols.register(PROTOCOL, async (peer: any, muxer: any) => {
-      const s5peer = new HyperTransportPeer(peer, [], muxer);
+      const s5peer = new HyperTransportPeer({
+        muxer,
+        peer,
+        protocol: PROTOCOL,
+      });
 
       s5peer.id = new NodeId(peer.remotePublicKey);
 
