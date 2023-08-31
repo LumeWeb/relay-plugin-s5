@@ -4,14 +4,20 @@ import { Level } from "level";
 import { PROTOCOL } from "./constants.js";
 import HyperTransportPeer from "./hyperTransport.js";
 import { NodeId } from "@lumeweb/libs5";
-import { string } from "micro-packed";
+import * as fs from "fs/promises";
 
 const plugin = {
   name: "s5",
   async plugin(api: PluginAPI) {
-    const db = new Level<string, Uint8Array>(
-      api.pluginConfig.str("db") as string,
-    );
+    const dbPath = api.pluginConfig.str("db") as string;
+
+    try {
+      await fs.access(dbPath);
+    } catch {
+      await fs.mkdir(dbPath, { recursive: true });
+    }
+
+    const db = new Level<string, Uint8Array>(dbPath);
     await db.open();
     let config = {
       keyPair: createKeyPair(api.identity.publicKeyRaw),
