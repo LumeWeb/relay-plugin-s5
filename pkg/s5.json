@@ -1,5 +1,5 @@
 {
-  "plugins": {
+  "plugin": {
     "s5": {
       "db": "/etc/lumeweb/relay/plugins/s5/db",
       "p2p": {
