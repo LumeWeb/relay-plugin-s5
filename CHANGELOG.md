@@ -1,3 +1,10 @@
+# [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-08-31)
+
+
+### Bug Fixes
+
+* path needs to be plugin ([83cc7f9](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/83cc7f9c1008e00b6cd3b461672444507ffd578e))
+
 # [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-08-31)
 
 
