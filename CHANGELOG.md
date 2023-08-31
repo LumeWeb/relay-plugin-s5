@@ -1,3 +1,11 @@
+# [0.1.0-develop.2](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.1...v0.1.0-develop.2) (2023-08-31)
+
+
+### Bug Fixes
+
+* ensure db path exists, create if not ([632eb13](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/632eb1351c92825c10681487efc7cfa3f5cebac6))
+* set default db path ([51618df](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/51618dfaf38c4dc9ad70fc6a76ca11ef37fad0f5))
+
 # [0.1.0-develop.1](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.0.1...v0.1.0-develop.1) (2023-08-31)
 
 
