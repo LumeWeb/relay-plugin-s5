@@ -1,0 +1,27 @@
+{
+    "name": "@lumeweb/relay-plugin-s5",
+    "version": "0.1.0",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "gitea@git.lumeweb.com:LumeWeb/relay-plugin-s5.git"
+    },
+    "devDependencies": {
+        "@lumeweb/presetter-relay-plugin-preset": "^0.1.0-develop.1",
+        "ed25519-keygen": "^0.4.8",
+        "presetter": "^4.1.2"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "@lumeweb/relay-plugin-s5@0.1.0",
+    "scripts": {
+        "prepare": "presetter bootstrap",
+        "build": "run build",
+        "semantic-release": "semantic-release"
+    },
+    "dependencies": {
+        "@lumeweb/interface-relay": "^0.0.2-develop.3",
+        "@lumeweb/libs5": "^0.1.0-develop.9",
+        "@types/streamx": "^2.9.1",
+        "streamx": "^2.15.1"
+    }
+}
