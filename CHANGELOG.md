@@ -1,3 +1,10 @@
+# [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-09-01)
+
+
+### Bug Fixes
+
+* need to ensure we prefix the node id with the key type identifier ([a19c515](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/a19c515dda5f533901d35a3c6ffdd39a82a1fa30))
+
 # [0.1.0-develop.4](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.3...v0.1.0-develop.4) (2023-08-31)
 
 # [0.1.0-develop.3](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.2...v0.1.0-develop.3) (2023-08-31)
