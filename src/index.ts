@@ -27,7 +27,7 @@ const plugin = {
     const db = new Level<string, Uint8Array>(dbPath);
     await db.open();
     let config = {
-      keyPair: createKeyPair(api.identity.publicKeyRaw),
+      keyPair: createKeyPair(api.identity.privateKey),
       db,
       p2p: {
         peers: {
