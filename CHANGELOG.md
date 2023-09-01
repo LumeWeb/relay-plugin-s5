@@ -1,3 +1,11 @@
+# [0.1.0-develop.6](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.5...v0.1.0-develop.6) (2023-09-01)
+
+
+### Bug Fixes
+
+* bad argument nesting ([61f333f](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/61f333feaafa37fe67adc7a7238b3a1b09da322e))
+* use privateKey not publicKeyRaw ([78bee5c](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/78bee5c47ba87118cca89f46acbea479ba028df0))
+
 # [0.1.0-develop.5](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.4...v0.1.0-develop.5) (2023-09-01)
 
 
