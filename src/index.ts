@@ -49,7 +49,7 @@ const plugin = {
       });
 
       s5peer.id = new NodeId(
-        concatBytes(Uint8Array.from([mkeyEd25519], peer.remotePublicKey)),
+        concatBytes(Uint8Array.from([mkeyEd25519]), peer.remotePublicKey),
       );
 
       await s5peer.init();
