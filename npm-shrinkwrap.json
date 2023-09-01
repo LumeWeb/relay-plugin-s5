@@ -9,7 +9,7 @@
             "version": "0.1.0-develop.5",
             "dependencies": {
                 "@lumeweb/interface-relay": "^0.0.2-develop.3",
-                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.8",
+                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.10",
                 "@types/streamx": "^2.9.1",
                 "streamx": "^2.15.1"
             },
@@ -1817,9 +1817,9 @@
             }
         },
         "node_modules/@lumeweb/libs5": {
-            "version": "0.1.0-develop.15",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.15.tgz",
-            "integrity": "sha512-am0t+jrepi42HyZzontQ5n0A4CJ70J8OlBgIKFroHQKwjKBD/ycbdyMf7lm1cKO1iou41PYulGnKIrb7w3xNJQ==",
+            "version": "0.1.0-develop.17",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.17.tgz",
+            "integrity": "sha512-P+tno8umL8ir5ZxMnBG0SOn1Y9x5e6ar1jSDDJpj+gfyskvMFygzzqQlvcQa39pLHxLkQg48X6xjziPjEarVew==",
             "dependencies": {
                 "@noble/curves": "^1.1.0",
                 "@noble/hashes": "^1.3.1",
@@ -1831,11 +1831,11 @@
             }
         },
         "node_modules/@lumeweb/libs5-transport-hyper": {
-            "version": "0.1.0-develop.8",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.8.tgz",
-            "integrity": "sha512-TAmSuRq3e6z97xwI1v7cBM9bLWMUHYuECTBeZSsW4RCe8Zkh8XT9mx6vQbiGSBzgBPK8jpCSzXJtO3juVPG/PQ==",
+            "version": "0.1.0-develop.10",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.10.tgz",
+            "integrity": "sha512-LYuyWBOrbhg3jR18hF/ZttARApsqsXWrFTNYCbV/H3weYLahAZX+I5Ko943d3ApbWhUPTEFo0Gbe5T5/Ajc0Eg==",
             "dependencies": {
-                "@lumeweb/libs5": "^0.1.0-develop.15",
+                "@lumeweb/libs5": "^0.1.0-develop.17",
                 "streamx": "^2.15.1"
             }
         },
