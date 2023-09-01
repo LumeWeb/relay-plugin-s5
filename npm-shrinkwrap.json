@@ -9,8 +9,7 @@
             "version": "0.1.0-develop.3",
             "dependencies": {
                 "@lumeweb/interface-relay": "^0.0.2-develop.3",
-                "@lumeweb/libs5": "^0.1.0-develop.14",
-                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.5",
+                "@lumeweb/libs5-transport-hyper": "^0.1.0-develop.8",
                 "@types/streamx": "^2.9.1",
                 "streamx": "^2.15.1"
             },
@@ -1818,9 +1817,9 @@
             }
         },
         "node_modules/@lumeweb/libs5": {
-            "version": "0.1.0-develop.14",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.14.tgz",
-            "integrity": "sha512-nLRaDl3c355iDIUU40ES9P5FZvgPtpRJNnAymaJeOxQVjI9TlO+4aGiACB8Wv0uywjSfy6CHvYMS32UZNLhIHA==",
+            "version": "0.1.0-develop.15",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5/-/libs5-0.1.0-develop.15.tgz",
+            "integrity": "sha512-am0t+jrepi42HyZzontQ5n0A4CJ70J8OlBgIKFroHQKwjKBD/ycbdyMf7lm1cKO1iou41PYulGnKIrb7w3xNJQ==",
             "dependencies": {
                 "@noble/curves": "^1.1.0",
                 "@noble/hashes": "^1.3.1",
@@ -1832,11 +1831,11 @@
             }
         },
         "node_modules/@lumeweb/libs5-transport-hyper": {
-            "version": "0.1.0-develop.5",
-            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.5.tgz",
-            "integrity": "sha512-xLc7MhL9dIR7WkaLntkpU56XLNeko3FElB29Rm9q/IEG7xBiwD807ikjxPrBb8R/a/H7c7w1aUAlZVu4U26xxQ==",
+            "version": "0.1.0-develop.8",
+            "resolved": "https://registry.npmjs.org/@lumeweb/libs5-transport-hyper/-/libs5-transport-hyper-0.1.0-develop.8.tgz",
+            "integrity": "sha512-TAmSuRq3e6z97xwI1v7cBM9bLWMUHYuECTBeZSsW4RCe8Zkh8XT9mx6vQbiGSBzgBPK8jpCSzXJtO3juVPG/PQ==",
             "dependencies": {
-                "@lumeweb/libs5": "^0.1.0-develop.13",
+                "@lumeweb/libs5": "^0.1.0-develop.15",
                 "streamx": "^2.15.1"
             }
         },

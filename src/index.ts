@@ -6,6 +6,8 @@ import {
   NodeId,
 } from "@lumeweb/libs5";
 import HyperTransportPeer from "@lumeweb/libs5-transport-hyper";
+import { mkeyEd25519 } from "@lumeweb/libs5";
+import { concatBytes } from "@noble/curves/abstract/utils";
 import { Level } from "level";
 
 import { PROTOCOL } from "./constants.js";
@@ -46,7 +48,9 @@ const plugin = {
         protocol: PROTOCOL,
       });
 
-      s5peer.id = new NodeId(peer.remotePublicKey);
+      s5peer.id = new NodeId(
+        concatBytes(Uint8Array.from([mkeyEd25519], peer.remotePublicKey)),
+      );
 
       await s5peer.init();
       node.services.p2p.onNewPeer(s5peer, true);
