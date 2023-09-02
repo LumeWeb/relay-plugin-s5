@@ -4,9 +4,9 @@ import {
   createKeyPair,
   createNode,
   NodeId,
+  CID_HASH_TYPES,
 } from "@lumeweb/libs5";
 import HyperTransportPeer from "@lumeweb/libs5-transport-hyper";
-import { mkeyEd25519 } from "@lumeweb/libs5";
 import { concatBytes } from "@noble/curves/abstract/utils";
 import { Level } from "level";
 
@@ -49,7 +49,10 @@ const plugin = {
       });
 
       s5peer.id = new NodeId(
-        concatBytes(Uint8Array.from([mkeyEd25519]), peer.remotePublicKey),
+        concatBytes(
+          Uint8Array.from([CID_HASH_TYPES.ED25519]),
+          peer.remotePublicKey,
+        ),
       );
 
       await s5peer.init();
