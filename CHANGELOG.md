@@ -1,3 +1,10 @@
+# [0.1.0-develop.11](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.10...v0.1.0-develop.11) (2023-09-02)
+
+
+### Bug Fixes
+
+* switch mkeyEd25519 to CID_HASH_TYPES ([8780042](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/commit/87800422e3c419f81b0e623f1895648f01ab86bf))
+
 # [0.1.0-develop.10](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.9...v0.1.0-develop.10) (2023-09-01)
 
 # [0.1.0-develop.9](https://git.lumeweb.com/LumeWeb/relay-plugin-s5/compare/v0.1.0-develop.8...v0.1.0-develop.9) (2023-09-01)
